@@ -88,7 +88,13 @@ impl Snake {
     }
 
     pub fn get_len(&self) -> usize {
+<<<<<<< HEAD
         &self.tail.len() - INITIAL_SNAKE_TAIL_LENGTH
+=======
+        let len = self.tail.len() - INITIAL_SNAKE_TAIL_LENGTH;
+        println!("Snake length: {}", len);
+        len
+>>>>>>> 4eb88db (增加结束界面，修复计分板功能，实现R键ESC键P键功能)
     }
 
     // pub fn is_alive(&self, size: (u32, u32)) -> bool {

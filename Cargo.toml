@@ -8,3 +8,8 @@ edition = "2018"
 piston_window = "0.128.0"
 find_folder = "0.3.0"
 rand = "0.8.5"
+<<<<<<< HEAD
+=======
+gfx = "0.18.2"
+image = "0.24.0"
+>>>>>>> 4eb88db (增加结束界面，修复计分板功能，实现R键ESC键P键功能)

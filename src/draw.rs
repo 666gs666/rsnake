@@ -52,9 +52,15 @@ pub fn draw_snake_head(ctx: &Context, g: &mut G2d, c: Color, pos: &Position, dir
         }
     }
 }
+<<<<<<< HEAD
 
 pub fn draw_fruit(ctx: &Context, g: &mut G2d, c: Color, pos: &Position) {}
 
+=======
+//绘制水果，未实现
+pub fn draw_fruit(ctx: &Context, g: &mut G2d, c: Color, pos: &Position) {}
+//覆盖层
+>>>>>>> 4eb88db (增加结束界面，修复计分板功能，实现R键ESC键P键功能)
 pub fn draw_overlay(ctx: &Context, g: &mut G2d, c: Color, size: (u32, u32)) {
     rectangle(
         c,
